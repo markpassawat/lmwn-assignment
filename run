@@ -1,0 +1,6 @@
+#!/bin/bash
+# source ./env base
+echo "---------------------------------------------------- Ready"
+APPNAME=$1
+# source ./env $APPNAME
+go run cmd/$APPNAME/*.go
